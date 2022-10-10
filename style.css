@@ -1,0 +1,136 @@
+body{
+    padding-top: 68px;
+    margin: 0;
+    text-align: center;
+   
+}
+#main{
+    text-align: center;
+    align-items: stretch;
+    align-content: space-around;
+    background-image: linear-gradient(purple, yellow);
+    opacity: 100%;
+    width: 100%;
+}
+h1{
+    font-size: 88px;
+    font-family: sans-serif;
+    margin-left: 36%;
+    margin-right: 38%;
+    margin-bottom: 166px;
+    margin-top: 160px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #2a26ff;
+    text-shadow: -1px 1px #5bc1f0,
+                 -2px 2px #5bc1f0,
+                 -3px 3px #5bc1f0,
+                 -4px 4px #5bc1f0,
+                 -5px 5px #5bc1f0,
+                 -6px 6px #5bc1f0,
+                 -7px 7px #5bc1f0,
+                 -8px 8px #5bc1f0,
+                 -9px 9px #5bc1f0,
+                 -10px 10px #5bc1f0,
+                 -11px 11px #5bc1f0,
+                 -12px 12px #5bc1f0, 
+                 -13px 13px #5bc1f0,
+                 -14px 14px rgb(0, 0, 0.6);
+}
+#left{
+    height: 340px;
+    width: 340px;
+    border-radius: 28px;
+    margin: 20px;
+    margin-left: 0;
+    
+}
+#middle{
+    height: 340px;
+    width: 460px;
+    border-radius: 28px;
+    margin: 20px;
+}
+#right{
+    height: 340px;
+    width: 460px; 
+    border-radius: 28px;
+    margin: 20px;
+    margin-right: 0;  
+}
+.row{
+    color:black;
+    font-size: 30px;
+    font-family: cursive;
+	margin-left:170px;
+	margin-right:180px;
+}
+.hello{
+    font-family:cursive ;
+    font-style:italic;
+    
+}
+p{
+    font-size :30px;
+    font-family: cursive;
+}
+.div{
+    height: 6px;
+    width: 340px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 37%;
+}
+.menu{
+    list-style-type: none; 
+    float: left;
+    position: fixed;
+    z-index: 10;
+    background-color: #71EBD8;
+    height: 50px;
+    line-height: 2;
+    border-radius: 20px;
+    top: 10px;
+    right: 30px;
+}
+.link{
+
+    color:#3e05a8;
+    padding-top:5px ;
+    padding-bottom:5px ;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 24px;
+    display: inline;
+    
+}
+.link:hover{
+    background-color: #fff78a;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+
+
+#About,#info{
+    margin: 50px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.img{
+    width:40%;
+    margin:20px;
+
+}
+.show{
+    height: 600px;
+    margin: 60px;
+    margin-top: 100px;
+    border-radius: 36px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+}
